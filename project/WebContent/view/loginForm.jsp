@@ -1,15 +1,16 @@
 <%-- <%@page import="member.MemberVO"%> --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
-<%-- <%@ include file="../layout/header.jsp" %> --%>
+<%@ include file="../layout/header.jsp" %>
 <link href="../css/floating-labels.css" rel="stylesheet">
 
 <%-- 세션에 값이 있다면 현재 로그인 상태임, 세션에 값이 없는 경우 비로그인 상태이므로 로그인 폼 보여주기 --%>
 <%
-	//세션 여부 확인하기
-	/* MemberVO vo=(MemberVO)session.getAttribute("vo");
+	/* //세션 여부 확인하기
+	MemberVO vo=(MemberVO)session.getAttribute("vo");
 
 	if(vo==null){ */
 %>
+<body>
 <form class="form-signin" name="loginform" action="loginProcess.jsp" method="post">	
       <div class="form-label-group">
         <input type="text" id="userid" name="userid" class="form-control" placeholder="id" required autofocus>
@@ -29,6 +30,7 @@
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       <p class="mt-5 mb-3 text-muted text-center">&copy; 2018</p>
     </form>	
+</body>
 <%-- <%
 	}else{
 		
@@ -52,8 +54,8 @@
  				location.href="logout.jsp";
  			});	
  		});
- 	</script>
-<%@ include file="../layout/footer.jsp" %> --%>
+ 	</script> --%>
+<%@ include file="../layout/footer.jsp" %>
 
 
 
