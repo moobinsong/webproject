@@ -21,28 +21,28 @@ $(function(){
 
 </head>
 <body>
-
     <!-- Fixed navbar -->
-     <!--  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="../index.jsp">
-        	<img src="../img/icons8-launch-box-48.png">
+    <header>
+   		<div  style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="../index.html">
+        	<img src="../img/log.png">
         </a>        
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto" id="menu">
-            <li class="nav-item" id="1">
-              <a class="nav-link" href="../index.jsp">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item" id="2">
-              <a class="nav-link" href="../view/joinForm.jsp">Register</a>
-            </li>
-            <li class="nav-item"  id="3">
-              <a class="nav-link" href="../view/loginForm.jsp">Login</a>
-            </li>
-          </ul>          
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#produce">Experience</a></li>
+					<li><a href="#board">게시판</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="view/loginForm.jsp">로그인</a></li>
+				</ul>          
         </div>
       </nav>
-      <main role="main" class="container"> -->
-</body>
+     </header>
+      <main role="main" class="container">
 
 
 
